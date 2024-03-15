@@ -1,9 +1,13 @@
+import Home from './pages/Home'
 import './App.css'
 
 function App() {
   return (
     <>
-     <div><h1>teste Git Action</h1></div>
+      <div>
+        <Home></Home>
+        
+      </div>
     </>
   )
 }
