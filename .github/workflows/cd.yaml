@@ -10,12 +10,11 @@ env:
 
 on: 
     push:
-        branches: ['master']
+        branches: ['main']
 
 jobs:
     deploy-vercel:
         runs-on: ubuntu-latest
-        environment: dev
 
         steps:
             - name: Baixar repos
