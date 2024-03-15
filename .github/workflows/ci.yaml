@@ -1,0 +1,27 @@
+name: Continuos Integrations
+
+on:
+    push:
+        branches: 
+            ['master']
+    pull_request:
+        branches: 
+            ['master']
+
+jobs:
+    continuos-integrations:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Baixar repos
+              uses: actions/checkout@v3
+            - name: Versão Nodejs
+              uses: actions/setup-node@v2
+              with:
+                node-version: 18.12.0
+            - name: instalar Node
+              run: yarn install
+            - name: rodar build
+              run: yarn build
+
+             
