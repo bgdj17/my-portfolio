@@ -1,30 +1,8 @@
+@import "../../core.scss";
 
 .content-header {
     width: 90%;
     margin: auto;
-    align-items: center;
     height: 110px;
-    // margin-bottom: 24px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
-
-    .nav-header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        ul {
-            display: flex;
-            flex-direction: row;
-            li {
-                padding: 12px;
-                text-transform: uppercase;
-
-                a{
-                    text-decoration: none;
-                    color: white;
-                }
-            }
-        }
-    }
+    font: var(--font-robot);
 }

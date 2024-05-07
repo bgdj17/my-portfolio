@@ -9,7 +9,7 @@ function Main() {
     return (
         <>
             <div className='content-main'>
-                <div>
+                <div >
                     <section className='description'>
                         <h2>Bem vindos!</h2>
                         <h1 className='typing-animation'>I'm Web Develop</h1>
@@ -35,40 +35,52 @@ function Main() {
 
                 </div>
 
-                <div id='sobre'>
+                <section id='sobre'>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
                     </p>
-                </div>
+                </section>
 
-                <div id='Projetos'>
-                    <h2>Atuação em projetos:</h2>
+                <section id='Projetos'>
+                    <h2>Principais Projetos:</h2>
 
                     <div>
-                        Foundation React
+                        <h3>Foundation React</h3>
+                        <p>
+                            Desenvolvimento de telas responsivas, dinamicas, com regras de
+                            negócio complexas e dentro de sites com grande fluxo de
+                            acesso e vendas, prezando sempre pela qualidade das
+                            entregas e performance, atendendo as regras de SEO,
+                            acessibilidade e com controle de tagueamento. Atuei com o
+                            CMS Liferay(7.0 e a nova versão 7.4), além das seguintes Hard
+                            Skills: Jquery, Js Vanilla, React js, Next Js, SASS, testes
+                            unitários(Jest), TypeScript, Storybook, Express, API Rest,
+                            Bootstrap, Tailwind.
+                        </p>
                     </div>
 
                     <div>
-                        Sistema interno
+                        <h3>Sistema interno</h3>
                     </div>
 
                     <div>
-                        Página de eventos
+                        <h3>Página de eventos</h3>
                     </div>
 
                     <div>
-                        Migração TFS
+                        <h3>Migração TFS</h3>
                     </div>
 
-                    <div>
-                        DevOps
-                    </div>
-                </div>
+                    
+                </section>
 
-                <div id='Certificações'>
+                <section></section>
+                <section></section>
+
+                <section id='Certificações'>
                     <h2>Certificações</h2>
                     A-Z900
-                </div>
+                </section>
             </div>
         </>
     )
