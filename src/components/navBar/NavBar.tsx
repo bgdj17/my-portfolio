@@ -1,7 +1,6 @@
-import './navBar.scss'
-import hamburger from '../../assets/hamburger.png'
-import close from '../../assets/close.png'
+import { getImageUrl } from '../../utils'
 import { useState } from 'react'
+import './navBar.scss'
 
 
 function NavBar() {
@@ -12,11 +11,11 @@ function NavBar() {
 
         <nav className='nav-bar'>
             <a className="title" href='/'>
-                Bruna
+                Portfolio
             </a>
             <div className='menu'>
                 <img className='menu-btn' 
-                src={menuOpen ? close : hamburger}
+                src={menuOpen ? getImageUrl('close.png') : getImageUrl('hamburger.png')}
                 onClick={()=>setMenuOpen(!menuOpen )} width={'38px'} />
                       
 

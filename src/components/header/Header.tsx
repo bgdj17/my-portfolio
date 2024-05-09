@@ -8,7 +8,7 @@ function Header() {
 
     return (
         <>
-            <div className='content-header'>
+            <div className='content-header' id='experience'>
                 <NavBar></NavBar>
             </div>
         </>

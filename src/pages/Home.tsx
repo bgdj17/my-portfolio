@@ -1,16 +1,19 @@
 import './Home.scss'
 import Header from '../components/header/Header'
 import Main from '../components/main/Main'
+import About from '../components/about/About'
+import Experience from '../components/experience/Experience'
+import Projects from '../components/projects/Projects'
 
 function Home() {
     return (
         <>
-        <div>
-            <Header></Header>
-        </div>
-            <div className='content'>
-                <Main></Main>
-            </div>
+            <Header />
+            <Main />
+            <About />
+            <Experience />
+            <Projects />
+
         </>
     )
 }
