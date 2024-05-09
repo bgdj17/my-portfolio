@@ -10,107 +10,106 @@ function Experience() {
             <div className='content-experience'>
                 <div className='logos'>
                     <div className='item-list'>
-                        <span className='image-list'>
+                        <div className='image-list'>
                             <img src={getImageUrl('html.png')} alt="html" />
-                        </span>
-                        HTML
+                        </div>
+                        <span>HTML</span>
                     </div>
                     <div className='item-list'>
-                        <span className='image-list'>
+                        <div className='image-list'>
                             <img src={getImageUrl('css.png')} alt="html" />
-                        </span>
-                        CSS
+                        </div>
+                        <span>CSS</span>
                     </div>
                     <div className='item-list'>
-                        <span className='image-list'>
+                        <div className='image-list'>
                             <img src={getImageUrl('react.png')} alt="html" />
-                        </span>
-                        REACT
+                        </div>
+                        <span>React</span>
                     </div>
                     <div className='item-list'>
-                        <span className='image-list'>
+                        <div className='image-list'>
                             <img src={getImageUrl('typescript.svg')} alt="html" />
-                        </span>
-                        Typescript
+                        </div>
+                        <span>Typescript</span>
                     </div>
                     <div className='item-list'>
-                        <span className='image-list'>
+                        <div className='image-list'>
                             <img src={getImageUrl('node.png')} alt="html" />
-                        </span>
-                        Node JS
+                        </div>
+                        <span>Node JS</span>
                     </div>
                     <div className='item-list'>
-                        <span className='image-list'>
+                        <div className='image-list'>
                             <img src={getImageUrl('tailwindcss-icon.svg')} alt="html" />
-                        </span>
-                        Tailwind
+                        </div>
+                        <span>Tailwind</span>
                     </div>
                     <div className='item-list'>
-                        <span className='image-list'>
+                        <div className='image-list'>
                             <img src={getImageUrl('storybook-icon.svg')} alt="html" />
-                        </span>
-                        Storybook
+                        </div>
+                        <span>Storybook</span>
                     </div>
                     <div className='item-list'>
-                        <span className='image-list'>
+                        <div className='image-list'>
                             <img src={getImageUrl('microsoft-azure.svg')} alt="html" />
-                        </span>
-                        Azure Devops
+                        </div>
+                        <span>Azure Devops</span>
                     </div>
-                   
+
                     <div className='item-list'>
-                        <span className='image-list'>
+                        <div className='image-list'>
                             <img src={getImageUrl('github-desktop.svg')} alt="html" />
-                        </span>
-                        GitHub Actions
+                        </div>
+                        <span>GitHub Actions</span>
                     </div>
-                    {/* <span className='item-list'>
-                        <img src={getImageUrl('css.png')} alt="css" />
-                    </span>
-                    CSS
-                    <span className='item-list'>
-                        <img src={getImageUrl('react.png')} alt="react" />
-                        React
-                    </span>
-                    <span className='item-list'>
-                        <img src={getImageUrl('typescript.svg')} alt="react" />
-                        Typescript
-                    </span>
-                    <span className='item-list'>
-                        <img src={getImageUrl('tailwindcss-icon.svg')} alt="react" />
-                        Tailwind
-                    </span>
-                    <span className='item-list'>
-                        <img src={getImageUrl('storybook-icon.svg')} alt="react" />
-                        Storybook
-                    </span>
-                    <span className='item-list'>
-                        <img src={getImageUrl('microsoft-azure.svg')} alt="react" />
-                        Azure DevOps
-                    </span>
-                    <span className='item-list'>
-                        <img src={getImageUrl('github-desktop.svg')} alt="react" />
-                        GitHub Actions
-                    </span> */}
-
-
                 </div>
 
-
-
                 <ul className='list-experience'>
-                    <li>
+                    <li className='item-experience'>
                         <img src={getImageUrl('logo-avanade-icon.png')} alt="" />
                         <div>
-                            <h3>Frontend Developer</h3>
-                            <p>I'm a frontend developer with experience in building responsive and optimized sites</p>
+                            <h3>DevOps Engineering</h3>
+                            <h4>Sept, 2023 - Present</h4>
+                            <ul className='list-project'>
+                                <li>SRE</li>
+                                <li>Update TFS</li>
+                            </ul>
                         </div>
                     </li>
-                    <li>
+                    <li className='item-experience'>
+                        <img src={getImageUrl('logo-avanade-icon.png')} alt="" />
+                        <div>
+                            <h3>Front-End Development</h3>
+                            <h4>Sept, 2023 - Present</h4>
+                            <ul className='list-project'>
+                                <li>SRE</li>
+                                <li>Update TFS</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li className='item-experience'>
+                        <img src={getImageUrl('logo-avanade-icon.png')} alt="" />
+                        <div>
+                            <h3>Back-end Development</h3>
+                            <h4>Sept, 2023 - Present</h4>
+                            <ul className='list-project'>
+                                <li>SRE</li>
+                                <li>Update TFS</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li className='item-experience'>
                         <img src={getImageUrl('vereda.png')} alt="" />
                         <div>
-                            <h3>Backend Developer</h3>
-                            <p>I have experience developing fast and optimized back-end systems and APIs</p>
+                            <h3>Front-End Development</h3>
+                            <h4>Sept, 2023 - Present</h4>
+                            <ul className='list-project'>
+                                <li>SRE</li>
+                                <li>Update TFS</li>
+                            </ul>
                         </div>
                     </li>
 

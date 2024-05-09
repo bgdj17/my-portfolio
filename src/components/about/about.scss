@@ -33,9 +33,15 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            gap: 30px;
+            // gap: 30px;
             li {
                 font-size: 20px;
+                padding: 15px;
+                border-radius: 12px;
+
+                &:hover{
+                    background-image: linear-gradient(90deg, rgba(109, 36, 124, 0.385),rgba(59, 16, 68, 0.119),rgba(59, 16, 68, 0));
+                }
 
                 h3 {
                     padding-bottom: 4px;
