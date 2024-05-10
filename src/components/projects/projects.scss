@@ -13,13 +13,13 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 3%;
+        gap: 2.5%;
         .project-item {
             background-image: linear-gradient(to bottom, var(--color-primary), var(--color-dark));
             border-radius: 12px;
             padding: 12px;
             margin-top: 24px;
-            max-width: 280px;
+            max-width: 270px;
 
             .image-project {
                 display: flex;
@@ -27,7 +27,7 @@
                 justify-content: center;
 
                 .div-img {
-                    width: 280px;
+                    width: 270px;
                     height: 150px;
                     background: no-repeat bottom;
                     background-size: cover;

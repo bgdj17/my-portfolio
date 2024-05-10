@@ -9,6 +9,8 @@ function Footer() {
                     <h2>Contact</h2>
                     <p>Feel free to reach out!</p>
 
+                    
+
                 </div>
                 <div className='contact-option'>
                     <span>
@@ -37,7 +39,6 @@ function Footer() {
                             github.com/bgdj17</a>
                     </span>
                 </div>
-
             </div>
         </div>
     )
