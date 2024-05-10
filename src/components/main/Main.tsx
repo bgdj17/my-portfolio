@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { FaGit } from 'react-icons/fa6';
 import { getImageUrl } from '../../../src/utils'
 import './Main.scss'
@@ -22,7 +22,7 @@ function Main() {
                         <FaLinkedin />
                     </a>
                     <a href="https://github.com/bgdj17" target="_blank" rel="noopener noreferrer" style={iconStyle}>
-                        <FaGit /></a>
+                        <FaGithub /></a>
                 </section>
 
                 <a className="contact-btn" href="mailto:bgdj17@gmail.com">Contact Me</a>

@@ -3,7 +3,7 @@ import './Header.scss'
 
 function Header() {
     return (
-        <div className='content-header' id='experience'>
+        <div className='content-header'>
             <NavBar></NavBar>
         </div>
     )
