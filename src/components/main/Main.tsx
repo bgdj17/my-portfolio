@@ -1,7 +1,7 @@
-import './Main.scss'
-import Photo from '../../../assets/foto_perfil.jpeg'
 import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { FaGit } from 'react-icons/fa6';
+import { getImageUrl } from '../../../src/utils'
+import './Main.scss'
 
 function Main() {
     const iconStyle = { color: '#fff', fontSize: '24px', marginRight: '10px' };
@@ -29,7 +29,7 @@ function Main() {
             </div>
 
             <div className='photo'>
-                <div className='div-img' style={{ backgroundImage: `url(${Photo})` }}></div>
+                <div className='div-img' style={{ backgroundImage: `url(${getImageUrl('foto_perfil.jpeg')})` }}></div>
             </div>
             <div className="top-blur" />
             <div className="bottom-blur" />

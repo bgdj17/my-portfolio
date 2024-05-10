@@ -6,4 +6,8 @@
     border:0;
     box-sizing: border-box;
     font-family: "Outfit", Arial, Heveltica, Sans-serif; 
+    
+}
+html{
+    font-size: 16px;
 }

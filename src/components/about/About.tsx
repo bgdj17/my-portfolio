@@ -10,7 +10,7 @@ function About() {
             <div className='content-about'>
 
                 <div className='image-avatar'>
-                    <img src={getImageUrl('avatar.png')} alt="" />
+                    <img src={getImageUrl('avatar2.png')} alt="" />
                 </div>
 
                 <ul className='list-experience'>
