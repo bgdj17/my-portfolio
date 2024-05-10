@@ -15,7 +15,7 @@ function Footer() {
                         <a href="https://www.instagram.com/brugjesus/" target="_blank" rel="noopener noreferrer" >
                             <FaEnvelope />
                         </a>
-                        <a href="https://www.instagram.com/brugjesus/" target="_blank" rel="noopener noreferrer" >
+                        <a href="mailto:bgdj17@gmail.com" target="_blank" rel="noopener noreferrer" >
                             bgdj17@gmail.com
                         </a>
                     </span>
