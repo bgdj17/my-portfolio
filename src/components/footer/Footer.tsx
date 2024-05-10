@@ -10,24 +10,31 @@ function Footer() {
                     <p>Feel free to reach out!</p>
 
                 </div>
-                <div className='social-media'>
+                <div className='contact-option'>
                     <span>
                         <a href="https://www.instagram.com/brugjesus/" target="_blank" rel="noopener noreferrer" >
                             <FaEnvelope />
-                        </a>bgdj17@gmail.com
+                        </a>
+                        <a href="https://www.instagram.com/brugjesus/" target="_blank" rel="noopener noreferrer" >
+                            bgdj17@gmail.com
+                        </a>
                     </span>
 
                     <span>
                         <a href="https://www.linkedin.com/in/bruna-gon%C3%A7alves-de-jesus-75173297/" target="_blank" rel="noopener noreferrer" >
                             <FaLinkedin />
                         </a>
-                        linkedin.com/bruna-goncalves-de-jesus
+                        <a href="https://www.linkedin.com/in/bruna-gon%C3%A7alves-de-jesus-75173297/" target="_blank" rel="noopener noreferrer" >
+                            bruna-goncalves-de-jesus
+                        </a>
                     </span>
 
                     <span>
                         <a href="https://github.com/bgdj17" target="_blank" rel="noopener noreferrer" >
                             <FaGithub />
-                        </a> github.com/bgdj17
+                        </a>
+                        <a href="https://github.com/bgdj17" target="_blank" rel="noopener noreferrer" >
+                            github.com/bgdj17</a>
                     </span>
                 </div>
 

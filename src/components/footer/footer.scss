@@ -4,7 +4,6 @@
     margin-top: 80px;
 
     .content-footer {
-        // gap: 24px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
@@ -18,15 +17,16 @@
             flex-direction: column;
             justify-content: center;
             font-size: 35px;
-           
         }
 
-        .social-media {
+        .contact-option{
+            height: 160px;
             display: flex;
             flex-direction: column;
-            width: 100%;
+            // width: 100%;
             font-size: 25px;
-            gap: 18px;
+            gap: 26px;
+            padding-left: 8px;
             
             span {
                 display: flex;
@@ -38,10 +38,35 @@
                 a{
                     color: var(--color-text);
                     margin-right: 22px;
+                    text-decoration: none;
 
                 }
 
             }
         }
     }
+}
+
+
+@media screen and (max-width:830px) {
+    .container-footer{
+        height: 100%;
+        padding: 0;
+        
+        
+        .content-footer{
+            align-items: center;
+            justify-content: center;
+            .contact{
+                height: 150px;
+            }
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+
+        }
+    }    
 }
