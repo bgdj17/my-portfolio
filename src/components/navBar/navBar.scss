@@ -25,11 +25,18 @@
             flex-direction: row;
             gap: 47px;
 
+            
             .item a {
                 font-size: 22px;
                 font-weight: 300;
                 color: var(--color-text);
                 text-decoration: none;
+                transition: color 0.4s ease;
+
+                &:hover{
+                   color: var(--color-primary);
+
+                }
             }
         }
     }
